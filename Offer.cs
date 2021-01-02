@@ -5,28 +5,29 @@ using System.Text.RegularExpressions;
 
 namespace ProjektPO
 {
-    class DestinationComparator : Comparer<Offer>
+    public class DestinationComparator : Comparer<Offer>
     {
         public override int Compare(Offer x, Offer y)
         {
             return y.Destination.CompareTo(x.Destination);
         }
     }
-    class PriceComparator : Comparer<Offer>
+    public class PriceComparator : Comparer<Offer>
     {
         public override int Compare(Offer x, Offer y)
         {
             return x.Price.CompareTo(y.Price);
         }
     }
-    class PriceComparator2 : Comparer<Offer>
+    public class PriceComparator2 : Comparer<Offer>
     {
         public override int Compare(Offer x, Offer y)
         {
             return y.Price.CompareTo(x.Price);
         }
     }
-    class Offer : IComparable<Offer>
+    [Serializable]
+    public class Offer : IComparable<Offer>
     {
         string destination;
         string departure;
@@ -43,7 +44,11 @@ namespace ProjektPO
         public DateTime Date_dep { get => date_dep; set => date_dep = value; }
         public DateTime Date_arr { get => date_arr; set => date_arr = value; }
 
-        public Offer(string destination, string departure, string hotel, int days, double price, string date_dep,string date_arr )
+		public Offer()
+		{
+		}
+
+		public Offer(string destination, string departure, string hotel, int days, double price, string date_dep,string date_arr )
         {
             this.Destination = destination;
             this.Departure = departure;

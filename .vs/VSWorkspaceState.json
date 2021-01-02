@@ -1,7 +1,14 @@
 {
   "ExpandedNodes": [
+    "",
+    "\\bin",
+    "\\bin\\Debug",
+    "\\bin\\Debug\\netcoreapp3.1",
     "\\obj",
-    "\\obj\\Debug"
+    "\\obj\\Debug",
+    "\\obj\\Debug\\netcoreapp3.1",
+    "\\obj\\Release"
   ],
+  "SelectedNode": "\\ProjektPO.csproj",
   "PreviewInSolutionExplorer": true
 }

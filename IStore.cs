@@ -9,6 +9,5 @@ namespace ProjektPO
         void AddOffer(Offer offer);
         void RemoveOffer(Offer offer);
         void ClearOffers();
-
     }
 }

@@ -9,8 +9,7 @@ namespace ProjektPO
     public enum Accomodation { Single, Double, Extra };
     public enum Board_types { Half, Standard, Full, None };
     class Booking
-    {
-        
+    {        
         Client client;
         Offer offer;
         int people_number;
@@ -37,9 +36,7 @@ namespace ProjektPO
             this.Board = board;
             this.Insurance = insurance;
             
-        }
-
-        
+        }        
 
         public override string ToString()
         {

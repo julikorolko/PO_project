@@ -1,18 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
+using System.IO;
 using System.Linq;
 using System.Text;
+using System.Xml.Serialization;
 
 namespace ProjektPO
 {
-    class OffersList:IStore
+    [Serializable]
+    public class OffersList:IStore
     {
         List<Offer> offers = new List<Offer>();
 
-        internal List<Offer> Offers { get => offers; set => offers = value; }
+        public List<Offer> Offers { get => offers; set => offers = value; }
 
-        public void AddOffer(Offer offer)
+		public OffersList()
+		{
+
+		}
+
+		public void AddOffer(Offer offer)
         {
             Offers.Add(offer);
            
@@ -71,6 +79,22 @@ namespace ProjektPO
             return stringBuilder.ToString();
 
         }
+        public static void ZapiszXML(string nazwa, OffersList ol) 
+        {
+            using (StreamWriter writer = new StreamWriter(nazwa))
+            {
+                XmlSerializer serializer = new XmlSerializer(typeof(OffersList));
+                serializer.Serialize(writer, ol);
+            }
+        }
 
+        public static OffersList OdczytajXML(string nazwa)
+        {
+            using (StreamReader reader = new StreamReader(nazwa))
+            {
+                XmlSerializer serializer = new XmlSerializer(typeof(OffersList));
+                return serializer.Deserialize(reader) as OffersList;
+            }
+        }
     }
 }

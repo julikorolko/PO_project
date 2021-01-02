@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OffersList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Offers>
+    <Offer>
+      <Destination>Cyprus - Paphos</Destination>
+      <Departure>Kraków</Departure>
+      <Hotel>Coral View</Hotel>
+      <Days>7</Days>
+      <Price>1000</Price>
+      <Date_dep>2021-02-23T00:00:00</Date_dep>
+      <Date_arr>0001-01-01T00:00:00</Date_arr>
+    </Offer>
+    <Offer>
+      <Destination>Spain - Malaga</Destination>
+      <Departure>Kraków</Departure>
+      <Hotel>Costa Docha</Hotel>
+      <Days>5</Days>
+      <Price>1300</Price>
+      <Date_dep>2021-01-22T00:00:00</Date_dep>
+      <Date_arr>2021-01-27T00:00:00</Date_arr>
+    </Offer>
+    <Offer>
+      <Destination>Egypt - Hurghada</Destination>
+      <Departure>Kraków</Departure>
+      <Hotel>Roma</Hotel>
+      <Days>4</Days>
+      <Price>1300</Price>
+      <Date_dep>2021-04-23T00:00:00</Date_dep>
+      <Date_arr>2021-04-27T00:00:00</Date_arr>
+    </Offer>
+    <Offer>
+      <Destination>Cyprus - Limassol</Destination>
+      <Departure>Kraków</Departure>
+      <Hotel>Kapetanios</Hotel>
+      <Days>6</Days>
+      <Price>1400</Price>
+      <Date_dep>2021-02-24T00:00:00</Date_dep>
+      <Date_arr>0001-01-01T00:00:00</Date_arr>
+    </Offer>
+    <Offer>
+      <Destination>France - Nice</Destination>
+      <Departure>Kraków</Departure>
+      <Hotel>Le Lazueu</Hotel>
+      <Days>7</Days>
+      <Price>1500</Price>
+      <Date_dep>2021-01-21T00:00:00</Date_dep>
+      <Date_arr>2021-01-28T00:00:00</Date_arr>
+    </Offer>
+    <Offer>
+      <Destination>Egypt - Hurghada</Destination>
+      <Departure>Kraków</Departure>
+      <Hotel>Long Beach Resort</Hotel>
+      <Days>7</Days>
+      <Price>1500</Price>
+      <Date_dep>2021-02-22T00:00:00</Date_dep>
+      <Date_arr>0001-01-01T00:00:00</Date_arr>
+    </Offer>
+    <Offer>
+      <Destination>Spain - Maspalomas</Destination>
+      <Departure>Kraków</Departure>
+      <Hotel>Sandy Golf</Hotel>
+      <Days>7</Days>
+      <Price>1600</Price>
+      <Date_dep>2021-03-03T00:00:00</Date_dep>
+      <Date_arr>2021-03-10T00:00:00</Date_arr>
+    </Offer>
+    <Offer>
+      <Destination>Turkey - Bitez</Destination>
+      <Departure>Kraków</Departure>
+      <Hotel>Garden Life</Hotel>
+      <Days>6</Days>
+      <Price>1700</Price>
+      <Date_dep>2021-03-24T00:00:00</Date_dep>
+      <Date_arr>2021-03-30T00:00:00</Date_arr>
+    </Offer>
+    <Offer>
+      <Destination>Greece - Hersonissos</Destination>
+      <Departure>Kraków</Departure>
+      <Hotel>Palmera Beach</Hotel>
+      <Days>7</Days>
+      <Price>1700</Price>
+      <Date_dep>2021-04-10T00:00:00</Date_dep>
+      <Date_arr>2021-04-17T00:00:00</Date_arr>
+    </Offer>
+    <Offer>
+      <Destination>Spain - Costa Calma</Destination>
+      <Departure>Kraków</Departure>
+      <Hotel>Royal Suite</Hotel>
+      <Days>6</Days>
+      <Price>1800</Price>
+      <Date_dep>2021-03-14T00:00:00</Date_dep>
+      <Date_arr>2021-03-20T00:00:00</Date_arr>
+    </Offer>
+    <Offer>
+      <Destination>Greece - Hersonissos</Destination>
+      <Departure>Kraków</Departure>
+      <Hotel>Golden Beach</Hotel>
+      <Days>7</Days>
+      <Price>1800</Price>
+      <Date_dep>2021-04-10T00:00:00</Date_dep>
+      <Date_arr>2021-04-17T00:00:00</Date_arr>
+    </Offer>
+    <Offer>
+      <Destination>Turkey - Alanya</Destination>
+      <Departure>Kraków</Departure>
+      <Hotel>Kleopatra Atlas</Hotel>
+      <Days>6</Days>
+      <Price>1850</Price>
+      <Date_dep>2021-04-20T00:00:00</Date_dep>
+      <Date_arr>2021-04-26T00:00:00</Date_arr>
+    </Offer>
+    <Offer>
+      <Destination>Greece - Lixouri</Destination>
+      <Departure>Kraków</Departure>
+      <Hotel>Palatino</Hotel>
+      <Days>7</Days>
+      <Price>1900</Price>
+      <Date_dep>2021-04-13T00:00:00</Date_dep>
+      <Date_arr>2021-04-20T00:00:00</Date_arr>
+    </Offer>
+    <Offer>
+      <Destination>Egypt - Dahab</Destination>
+      <Departure>Kraków</Departure>
+      <Hotel>Happy Life Village</Hotel>
+      <Days>10</Days>
+      <Price>2100</Price>
+      <Date_dep>2021-02-20T00:00:00</Date_dep>
+      <Date_arr>0001-01-01T00:00:00</Date_arr>
+    </Offer>
+    <Offer>
+      <Destination>Turkey - Alanya</Destination>
+      <Departure>Kraków</Departure>
+      <Hotel>Tac Premier</Hotel>
+      <Days>7</Days>
+      <Price>2300</Price>
+      <Date_dep>2021-04-20T00:00:00</Date_dep>
+      <Date_arr>2021-04-27T00:00:00</Date_arr>
+    </Offer>
+    <Offer>
+      <Destination>Greece - Platamonas</Destination>
+      <Departure>Kraków</Departure>
+      <Hotel>Olympus Thea</Hotel>
+      <Days>10</Days>
+      <Price>2400</Price>
+      <Date_dep>2021-03-14T00:00:00</Date_dep>
+      <Date_arr>2021-03-24T00:00:00</Date_arr>
+    </Offer>
+    <Offer>
+      <Destination>USA - Honolulu</Destination>
+      <Departure>Kraków</Departure>
+      <Hotel>Exopark</Hotel>
+      <Days>10</Days>
+      <Price>2500</Price>
+      <Date_dep>2021-02-20T00:00:00</Date_dep>
+      <Date_arr>0001-01-01T00:00:00</Date_arr>
+    </Offer>
+    <Offer>
+      <Destination>Tanzania - Uroa</Destination>
+      <Departure>Kraków</Departure>
+      <Hotel>Bay Beach Resort</Hotel>
+      <Days>7</Days>
+      <Price>5000</Price>
+      <Date_dep>2021-05-07T00:00:00</Date_dep>
+      <Date_arr>2021-05-14T00:00:00</Date_arr>
+    </Offer>
+    <Offer>
+      <Destination>Dominican Republic - Maimon</Destination>
+      <Departure>Kraków</Departure>
+      <Hotel>Riu Bachata</Hotel>
+      <Days>7</Days>
+      <Price>5100</Price>
+      <Date_dep>2021-04-09T00:00:00</Date_dep>
+      <Date_arr>2021-04-16T00:00:00</Date_arr>
+    </Offer>
+    <Offer>
+      <Destination>Dominican Republic - Puerto Plata</Destination>
+      <Departure>Kraków</Departure>
+      <Hotel>Iberostar</Hotel>
+      <Days>7</Days>
+      <Price>7200</Price>
+      <Date_dep>2021-04-09T00:00:00</Date_dep>
+      <Date_arr>2021-04-16T00:00:00</Date_arr>
+    </Offer>
+  </Offers>
+</OffersList>

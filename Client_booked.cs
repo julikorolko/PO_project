@@ -5,8 +5,7 @@ using System.Text;
 namespace ProjektPO
 {public enum Status { adult,child}
     class Client_booked : AClient
-    {
-        
+    {     
         
         Status status;
         public Status Status { get => status; set => status = value; }
@@ -15,9 +14,7 @@ namespace ProjektPO
             this.Firstname = firstname;
             this.Surname = surname;
             this.Status = status;
-        }
-
-       
+        }       
 
         public override string ToString()
         {

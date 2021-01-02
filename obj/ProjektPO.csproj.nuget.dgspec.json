@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\korol\\OneDrive\\Desktop\\ProjektPO\\ProjektPO.csproj": {}
+    "C:\\Users\\korol\\OneDrive\\Desktop\\julia\\!STUDIA\\3 sem\\PO\\ProjektPO\\ProjektPO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\korol\\OneDrive\\Desktop\\ProjektPO\\ProjektPO.csproj": {
+    "C:\\Users\\korol\\OneDrive\\Desktop\\julia\\!STUDIA\\3 sem\\PO\\ProjektPO\\ProjektPO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\korol\\OneDrive\\Desktop\\ProjektPO\\ProjektPO.csproj",
+        "projectUniqueName": "C:\\Users\\korol\\OneDrive\\Desktop\\julia\\!STUDIA\\3 sem\\PO\\ProjektPO\\ProjektPO.csproj",
         "projectName": "ProjektPO",
-        "projectPath": "C:\\Users\\korol\\OneDrive\\Desktop\\ProjektPO\\ProjektPO.csproj",
+        "projectPath": "C:\\Users\\korol\\OneDrive\\Desktop\\julia\\!STUDIA\\3 sem\\PO\\ProjektPO\\ProjektPO.csproj",
         "packagesPath": "C:\\Users\\korol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\korol\\OneDrive\\Desktop\\ProjektPO\\obj\\",
+        "outputPath": "C:\\Users\\korol\\OneDrive\\Desktop\\julia\\!STUDIA\\3 sem\\PO\\ProjektPO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\korol\\AppData\\Roaming\\NuGet\\NuGet.Config",

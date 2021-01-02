@@ -35,3 +35,16 @@ C:\Users\korol\OneDrive\Desktop\ProjektPO\obj\Debug\netcoreapp3.1\ProjektPO.cspr
 C:\Users\korol\OneDrive\Desktop\ProjektPO\obj\Debug\netcoreapp3.1\ProjektPO.dll
 C:\Users\korol\OneDrive\Desktop\ProjektPO\obj\Debug\netcoreapp3.1\ProjektPO.pdb
 C:\Users\korol\OneDrive\Desktop\ProjektPO\obj\Debug\netcoreapp3.1\ProjektPO.genruntimeconfig.cache
+C:\Users\korol\OneDrive\Desktop\julia\!STUDIA\3 sem\PO\ProjektPO\bin\Debug\netcoreapp3.1\ProjektPO.exe
+C:\Users\korol\OneDrive\Desktop\julia\!STUDIA\3 sem\PO\ProjektPO\bin\Debug\netcoreapp3.1\ProjektPO.deps.json
+C:\Users\korol\OneDrive\Desktop\julia\!STUDIA\3 sem\PO\ProjektPO\bin\Debug\netcoreapp3.1\ProjektPO.runtimeconfig.json
+C:\Users\korol\OneDrive\Desktop\julia\!STUDIA\3 sem\PO\ProjektPO\bin\Debug\netcoreapp3.1\ProjektPO.runtimeconfig.dev.json
+C:\Users\korol\OneDrive\Desktop\julia\!STUDIA\3 sem\PO\ProjektPO\bin\Debug\netcoreapp3.1\ProjektPO.dll
+C:\Users\korol\OneDrive\Desktop\julia\!STUDIA\3 sem\PO\ProjektPO\bin\Debug\netcoreapp3.1\ProjektPO.pdb
+C:\Users\korol\OneDrive\Desktop\julia\!STUDIA\3 sem\PO\ProjektPO\obj\Debug\netcoreapp3.1\ProjektPO.csprojAssemblyReference.cache
+C:\Users\korol\OneDrive\Desktop\julia\!STUDIA\3 sem\PO\ProjektPO\obj\Debug\netcoreapp3.1\ProjektPO.AssemblyInfoInputs.cache
+C:\Users\korol\OneDrive\Desktop\julia\!STUDIA\3 sem\PO\ProjektPO\obj\Debug\netcoreapp3.1\ProjektPO.AssemblyInfo.cs
+C:\Users\korol\OneDrive\Desktop\julia\!STUDIA\3 sem\PO\ProjektPO\obj\Debug\netcoreapp3.1\ProjektPO.csproj.CoreCompileInputs.cache
+C:\Users\korol\OneDrive\Desktop\julia\!STUDIA\3 sem\PO\ProjektPO\obj\Debug\netcoreapp3.1\ProjektPO.dll
+C:\Users\korol\OneDrive\Desktop\julia\!STUDIA\3 sem\PO\ProjektPO\obj\Debug\netcoreapp3.1\ProjektPO.pdb
+C:\Users\korol\OneDrive\Desktop\julia\!STUDIA\3 sem\PO\ProjektPO\obj\Debug\netcoreapp3.1\ProjektPO.genruntimeconfig.cache
