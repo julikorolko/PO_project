@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\korol\\OneDrive\\Desktop\\julia\\!STUDIA\\3 sem\\PO\\ProjektPO\\TravelAgency\\TravelAgency.csproj": {}
+    "C:\\Users\\korol\\OneDrive\\Documents\\GitHub\\PO_projekt\\TravelAgency\\TravelAgency.csproj": {}
   },
   "projects": {
-    "C:\\Users\\korol\\OneDrive\\Desktop\\julia\\!STUDIA\\3 sem\\PO\\ProjektPO\\TravelAgency\\TravelAgency.csproj": {
+    "C:\\Users\\korol\\OneDrive\\Documents\\GitHub\\PO_projekt\\TravelAgency\\TravelAgency.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\korol\\OneDrive\\Desktop\\julia\\!STUDIA\\3 sem\\PO\\ProjektPO\\TravelAgency\\TravelAgency.csproj",
+        "projectUniqueName": "C:\\Users\\korol\\OneDrive\\Documents\\GitHub\\PO_projekt\\TravelAgency\\TravelAgency.csproj",
         "projectName": "TravelAgency",
-        "projectPath": "C:\\Users\\korol\\OneDrive\\Desktop\\julia\\!STUDIA\\3 sem\\PO\\ProjektPO\\TravelAgency\\TravelAgency.csproj",
+        "projectPath": "C:\\Users\\korol\\OneDrive\\Documents\\GitHub\\PO_projekt\\TravelAgency\\TravelAgency.csproj",
         "packagesPath": "C:\\Users\\korol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\korol\\OneDrive\\Desktop\\julia\\!STUDIA\\3 sem\\PO\\ProjektPO\\TravelAgency\\obj\\",
+        "outputPath": "C:\\Users\\korol\\OneDrive\\Documents\\GitHub\\PO_projekt\\TravelAgency\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\korol\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sD2gHTHguq9KUpsFjLPCX7o5MQs7yInQDWmvB8POneANZGtG6yME7areV4pHCPH4UNPynlzyRFWG3L2k6ZUW/A==",
+  "dgSpecHash": "+4md36MxfQ9zLZSVLze0lJG7mbvvkW0demz+jdqZQkxYxHEaPFsp6dyxH7VaKvS/BmQntVPeie24u0Ms3gkf8Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\korol\\OneDrive\\Desktop\\julia\\!STUDIA\\3 sem\\PO\\ProjektPO\\UnitTestProject\\UnitTestProject.csproj",
+  "projectFilePath": "C:\\Users\\korol\\OneDrive\\Documents\\GitHub\\PO_projekt\\UnitTestProject\\UnitTestProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\korol\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\korol\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",

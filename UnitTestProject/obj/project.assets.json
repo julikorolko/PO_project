@@ -5737,11 +5737,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\korol\\OneDrive\\Desktop\\julia\\!STUDIA\\3 sem\\PO\\ProjektPO\\UnitTestProject\\UnitTestProject.csproj",
+      "projectUniqueName": "C:\\Users\\korol\\OneDrive\\Documents\\GitHub\\PO_projekt\\UnitTestProject\\UnitTestProject.csproj",
       "projectName": "UnitTestProject",
-      "projectPath": "C:\\Users\\korol\\OneDrive\\Desktop\\julia\\!STUDIA\\3 sem\\PO\\ProjektPO\\UnitTestProject\\UnitTestProject.csproj",
+      "projectPath": "C:\\Users\\korol\\OneDrive\\Documents\\GitHub\\PO_projekt\\UnitTestProject\\UnitTestProject.csproj",
       "packagesPath": "C:\\Users\\korol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\korol\\OneDrive\\Desktop\\julia\\!STUDIA\\3 sem\\PO\\ProjektPO\\UnitTestProject\\obj\\",
+      "outputPath": "C:\\Users\\korol\\OneDrive\\Documents\\GitHub\\PO_projekt\\UnitTestProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\korol\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5757,8 +5757,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\korol\\OneDrive\\Desktop\\julia\\!STUDIA\\3 sem\\PO\\ProjektPO\\TravelAgency\\TravelAgency.csproj": {
-              "projectPath": "C:\\Users\\korol\\OneDrive\\Desktop\\julia\\!STUDIA\\3 sem\\PO\\ProjektPO\\TravelAgency\\TravelAgency.csproj"
+            "C:\\Users\\korol\\OneDrive\\Documents\\GitHub\\PO_projekt\\TravelAgency\\TravelAgency.csproj": {
+              "projectPath": "C:\\Users\\korol\\OneDrive\\Documents\\GitHub\\PO_projekt\\TravelAgency\\TravelAgency.csproj"
             }
           }
         }

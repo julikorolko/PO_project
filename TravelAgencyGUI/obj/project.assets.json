@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "TravelAgency/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/TravelAgency.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TravelAgency.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "TravelAgency/1.0.0": {
+      "type": "project",
+      "path": "../TravelAgency/TravelAgency.csproj",
+      "msbuildProject": "../TravelAgency/TravelAgency.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "TravelAgency >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\korol\\.nuget\\packages\\": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\korol\\OneDrive\\Documents\\GitHub\\PO_projekt\\TravelAgency\\TravelAgency.csproj",
-      "projectName": "TravelAgency",
-      "projectPath": "C:\\Users\\korol\\OneDrive\\Documents\\GitHub\\PO_projekt\\TravelAgency\\TravelAgency.csproj",
+      "projectUniqueName": "C:\\Users\\korol\\OneDrive\\Documents\\GitHub\\PO_projekt\\TravelAgencyGUI\\TravelAgencyGUI.csproj",
+      "projectName": "TravelAgencyGUI",
+      "projectPath": "C:\\Users\\korol\\OneDrive\\Documents\\GitHub\\PO_projekt\\TravelAgencyGUI\\TravelAgencyGUI.csproj",
       "packagesPath": "C:\\Users\\korol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\korol\\OneDrive\\Documents\\GitHub\\PO_projekt\\TravelAgency\\obj\\",
+      "outputPath": "C:\\Users\\korol\\OneDrive\\Documents\\GitHub\\PO_projekt\\TravelAgencyGUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\korol\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -32,7 +51,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\korol\\OneDrive\\Documents\\GitHub\\PO_projekt\\TravelAgency\\TravelAgency.csproj": {
+              "projectPath": "C:\\Users\\korol\\OneDrive\\Documents\\GitHub\\PO_projekt\\TravelAgency\\TravelAgency.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -56,6 +79,9 @@
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
