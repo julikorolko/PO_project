@@ -24,3 +24,14 @@ C:\Users\korol\OneDrive\Documents\GitHub\PO_projekt\TravelAgency\obj\Debug\netco
 C:\Users\korol\OneDrive\Documents\GitHub\PO_projekt\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.dll
 C:\Users\korol\OneDrive\Documents\GitHub\PO_projekt\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.pdb
 C:\Users\korol\OneDrive\Documents\GitHub\PO_projekt\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.genruntimeconfig.cache
+C:\Users\Weronika\Documents\GitHub\PO_projekt\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.exe
+C:\Users\Weronika\Documents\GitHub\PO_projekt\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.deps.json
+C:\Users\Weronika\Documents\GitHub\PO_projekt\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.runtimeconfig.json
+C:\Users\Weronika\Documents\GitHub\PO_projekt\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.runtimeconfig.dev.json
+C:\Users\Weronika\Documents\GitHub\PO_projekt\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.dll
+C:\Users\Weronika\Documents\GitHub\PO_projekt\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.pdb
+C:\Users\Weronika\Documents\GitHub\PO_projekt\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.csprojAssemblyReference.cache
+C:\Users\Weronika\Documents\GitHub\PO_projekt\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.AssemblyInfoInputs.cache
+C:\Users\Weronika\Documents\GitHub\PO_projekt\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.AssemblyInfo.cs
+C:\Users\Weronika\Documents\GitHub\PO_projekt\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.dll
+C:\Users\Weronika\Documents\GitHub\PO_projekt\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.pdb

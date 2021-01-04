@@ -1,28 +1,36 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+﻿using System.Windows;
+using TravelAgency;
 
 namespace TravelAgencyGUI
 {
-	/// <summary>
-	/// Interaction logic for MainWindow.xaml
-	/// </summary>
-	public partial class MainWindow : Window
-	{
-		public MainWindow()
-		{
-			InitializeComponent();
-		}
-	}
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        Booking booking = new Booking();
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        private void btBrowse_Click(object sender, RoutedEventArgs e)
+        {
+            Offer offer = new Offer();
+            OfferBrowser offerBrowser = new OfferBrowser(offer);
+            offerBrowser.ShowDialog();
+            if (offerBrowser.DialogResult == true)
+            {
+                tbofferdest.Text = offer.Destination;
+                tbDeparture.Text = offer.Departure;
+                tbHotel.Text = offer.Hotel;
+                tbDuration.Text = offer.Days.ToString() + " days";
+                tbPrice.Text = offer.Price.ToString() + " PLN";
+                tbDepDate.Text = offer.Date_dep.ToShortDateString();
+                tbRetDate.Text = offer.Date_arr.ToShortDateString();
+
+            }
+        }
+    }
 }
+
