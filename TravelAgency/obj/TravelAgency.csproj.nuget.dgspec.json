@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Weronika\\Documents\\GitHub\\PO_projekt\\TravelAgency\\TravelAgency.csproj": {}
+    "C:\\Users\\karol\\Source\\Repos\\PO_projekt\\TravelAgency\\TravelAgency.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Weronika\\Documents\\GitHub\\PO_projekt\\TravelAgency\\TravelAgency.csproj": {
+    "C:\\Users\\karol\\Source\\Repos\\PO_projekt\\TravelAgency\\TravelAgency.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Weronika\\Documents\\GitHub\\PO_projekt\\TravelAgency\\TravelAgency.csproj",
+        "projectUniqueName": "C:\\Users\\karol\\Source\\Repos\\PO_projekt\\TravelAgency\\TravelAgency.csproj",
         "projectName": "TravelAgency",
-        "projectPath": "C:\\Users\\Weronika\\Documents\\GitHub\\PO_projekt\\TravelAgency\\TravelAgency.csproj",
-        "packagesPath": "C:\\Users\\Weronika\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Weronika\\Documents\\GitHub\\PO_projekt\\TravelAgency\\obj\\",
+        "projectPath": "C:\\Users\\karol\\Source\\Repos\\PO_projekt\\TravelAgency\\TravelAgency.csproj",
+        "packagesPath": "C:\\Users\\karol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karol\\Source\\Repos\\PO_projekt\\TravelAgency\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Weronika\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\karol\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -52,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

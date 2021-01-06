@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\Weronika\Documents\GitHub\PO_projekt\TravelAgencyGUI\obj\Debug\netcoreapp3.1\
+C:\Users\karol\Source\Repos\PO_projekt\TravelAgencyGUI\obj\Debug\netcoreapp3.1\
 TravelAgencyGUI
 none
 false
-TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
-C:\Users\Weronika\Documents\GitHub\PO_projekt\TravelAgencyGUI\App.xaml
+TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
+C:\Users\karol\Source\Repos\PO_projekt\TravelAgencyGUI\App.xaml
 2309782738
 
 4-227095173
-193698417769
+193-333290558
 MainWindow.xaml;OfferBrowser.xaml;
 
 False

@@ -28,7 +28,20 @@ namespace TravelAgencyGUI
                 tbPrice.Text = offer.Price.ToString() + " PLN";
                 tbDepDate.Text = offer.Date_dep.ToShortDateString();
                 tbRetDate.Text = offer.Date_arr.ToShortDateString();
-
+            }
+        }
+        private void btClient_Click(object sender, RoutedEventArgs e)
+        {
+            
+            try
+            {
+                Client client = new Client(tbxFirstname.Text, tbxSurname.Text, tbxAdress.Text, tbxPostcode.Text,
+                    tbxPhoneNum.Text, tbxEmail.Text);
+                MessageBox.Show(client.Email);
+            }
+            catch
+            {
+                MessageBox.Show("Some data is missing!","Error");
             }
         }
     }
