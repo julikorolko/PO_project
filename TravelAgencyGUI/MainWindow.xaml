@@ -5,77 +5,54 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TravelAgencyGUI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="462" Width="824">
+        Title="MainWindow" Height="530" Width="860">
     <Grid Margin="0,0,0,-16">
         <Grid.Background>
             <ImageBrush ImageSource="/Background.jpg" Opacity="0.9"/>
         </Grid.Background>
-        <Button x:Name="btBrowse" Content="Browse" HorizontalAlignment="Left" Height="18" Margin="128,49,0,0" VerticalAlignment="Top" Width="51" IsDefault="True" Click="btBrowse_Click"/>
-        <TextBlock x:Name="tbofferdest" HorizontalAlignment="Left" Height="20" Margin="128,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143"/>
-        <Label x:Name="destinationLabel" Content="Destination:" HorizontalAlignment="Left" Height="23" Margin="17,66,0,0" VerticalAlignment="Top" Width="106" Foreground="#FF050405">
-            <Label.Background>
-                <SolidColorBrush Color="#FFA8E8E2" Opacity="0.9"/>
-            </Label.Background>
-        </Label>
-        <Label x:Name="departureLabel" Content="Departure:" HorizontalAlignment="Left" Height="26" Margin="17,89,0,0" VerticalAlignment="Top" Width="106" Foreground="#FF0B0A0B">
-            <Label.Background>
-                <SolidColorBrush Color="#FFA8E8E2" Opacity="0.9"/>
-            </Label.Background>
-        </Label>
-        <TextBlock x:Name="tbDeparture" HorizontalAlignment="Left" Height="20" Margin="128,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143"/>
-        <TextBlock x:Name="tbHotel" HorizontalAlignment="Left" Height="20" Margin="128,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143"/>
-        <TextBlock x:Name="tbDuration" HorizontalAlignment="Left" Height="20" Margin="128,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143"/>
-        <TextBlock x:Name="tbPrice" HorizontalAlignment="Left" Height="20" Margin="128,163,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143"/>
-        <TextBlock x:Name="tbDepDate" HorizontalAlignment="Left" Height="20" Margin="128,186,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143"/>
-        <TextBlock x:Name="tbRetDate" HorizontalAlignment="Left" Height="20" Margin="128,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143"/>
-        <Label x:Name="HotelLabel" Content="Hotel:" HorizontalAlignment="Left" Height="23" Margin="17,112,0,0" VerticalAlignment="Top" Width="106">
-            <Label.Background>
-                <SolidColorBrush Color="#FFA8E8E2" Opacity="0.9"/>
-            </Label.Background>
-        </Label>
-        <Label x:Name="RetDateLabel" Content="Return date:" HorizontalAlignment="Left" Height="26" Margin="17,207,0,0" VerticalAlignment="Top" Width="106">
-            <Label.Background>
-                <SolidColorBrush Color="#FFA8E8E2" Opacity="0.9"/>
-            </Label.Background>
-        </Label>
-        <Label x:Name="DurationLabel" Content="Duration: " HorizontalAlignment="Left" Height="23" Margin="17,135,0,0" VerticalAlignment="Top" Width="106">
-            <Label.Background>
-                <SolidColorBrush Color="#FFA8E8E2" Opacity="0.9"/>
-            </Label.Background>
-        </Label>
-        <Label x:Name="PriceLabel" Content="Price per person:" HorizontalAlignment="Left" Height="26" Margin="17,158,0,0" VerticalAlignment="Top" Width="106">
-            <Label.Background>
-                <SolidColorBrush Color="#FFA8E8E2" Opacity="0.9"/>
-            </Label.Background>
-        </Label>
-        <Label x:Name="depDateLabel" Content="Departure date:" HorizontalAlignment="Left" Height="26" Margin="17,181,0,0" VerticalAlignment="Top" Width="106">
-            <Label.Background>
-                <SolidColorBrush Color="#FFA8E8E2" Opacity="0.9"/>
-            </Label.Background>
-        </Label>
-        <Label x:Name="FirstNameLabel" Content="First name:" HorizontalAlignment="Left" Margin="268,48,0,0" VerticalAlignment="Top" Width="94" Height="24"/>
-        <Label x:Name="SurnameLabel" Content="Surname:" HorizontalAlignment="Left" Margin="268,71,0,0" VerticalAlignment="Top" Width="94" Height="24"/>
-        <Label x:Name="AdressLabel" Content="Adress:" HorizontalAlignment="Left" Margin="268,95,0,0" VerticalAlignment="Top" Width="94" Height="26"/>
-        <Label x:Name="PostcodeLabel" Content="Post code:" HorizontalAlignment="Left" Margin="263,124,0,0" VerticalAlignment="Top" Width="94"/>
-        <Label x:Name="PhoneNumLabel" Content="Phone number:" HorizontalAlignment="Left" Margin="263,148,0,0" VerticalAlignment="Top" Width="94"/>
-        <Label x:Name="EmailLabel" Content="E-mail:" HorizontalAlignment="Left" Margin="263,174,0,0" VerticalAlignment="Top" Width="94"/>
-        <TextBox x:Name="tbxFirstname" HorizontalAlignment="Left" Margin="362,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
-        <TextBox x:Name="tbxSurname" HorizontalAlignment="Left" Margin="362,74,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
-        <TextBox x:Name="tbxAdress" HorizontalAlignment="Left" Margin="362,100,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
-        <TextBox x:Name="tbxPostcode" HorizontalAlignment="Left" Margin="362,126,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
-        <TextBox x:Name="tbxPhoneNum" HorizontalAlignment="Left" Margin="362,152,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
-        <TextBox x:Name="tbxEmail" HorizontalAlignment="Left" Margin="362,178,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
-        <Button x:Name="btClient" Content="Accept" HorizontalAlignment="Left" Margin="629,357,0,0" VerticalAlignment="Top" Click="btClient_Click"/>
-        <Label Content="Enter client data" HorizontalAlignment="Left" Margin="404,22,0,0" VerticalAlignment="Top" Width="116" FontSize="13" FontWeight="Bold" Foreground="#FF0B0A0A"/>
-        <Label Content="Choose offer" HorizontalAlignment="Left" Margin="109,22,0,0" VerticalAlignment="Top" FontSize="13" FontWeight="Bold" Foreground="#FF0C0C0C"/>
-        <Label Content="Enter booking information" HorizontalAlignment="Left" Margin="49,238,0,0" VerticalAlignment="Top" FontSize="13" FontWeight="Bold" Foreground="#FF0C0C0C"/>
-        <Label x:Name="label" Content="Flight type&#xD;&#xA;l" HorizontalAlignment="Left" Height="26" Margin="17,263,0,0" VerticalAlignment="Top" Width="78"/>
-        <Label x:Name="label_Copy" Content="Room type" HorizontalAlignment="Left" Height="26" Margin="17,294,0,0" VerticalAlignment="Top" Width="78"/>
-        <ComboBox x:Name="room_type" HorizontalAlignment="Left" Height="22" Margin="95,298,0,0" VerticalAlignment="Top" Width="145"/>
-        <ComboBox x:Name="flight_type" HorizontalAlignment="Left" Height="22" Margin="95,265,0,0" VerticalAlignment="Top" Width="145"/>
-        <Label x:Name="boards_type" Content="Board type" HorizontalAlignment="Left" Height="26" Margin="17,325,0,0" VerticalAlignment="Top" Width="78"/>
-        <ComboBox x:Name="board_type" HorizontalAlignment="Left" Height="22" Margin="95,327,0,0" VerticalAlignment="Top" Width="145"/>
-        <Button x:Name="info_button" Content="Confirm" HorizontalAlignment="Left" Height="22" Margin="168,361,0,0" VerticalAlignment="Top" Width="72" Click="info_button_Click"/>
+        <Button x:Name="btBrowse" Content="Browse" HorizontalAlignment="Left" Height="18" Margin="215,120,0,0" VerticalAlignment="Top" Width="50" IsDefault="True" Click="btBrowse_Click"/>
+        <TextBlock x:Name="tbofferdest" HorizontalAlignment="Left" Height="20" Margin="180,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" RenderTransformOrigin="0.5,0.502"/>
+        <Label x:Name="destinationLabel" Content="Destination:" HorizontalAlignment="Left" Height="23" Margin="69,145,0,0" VerticalAlignment="Top" Width="106" Foreground="#FF050405"/>
+        <Label x:Name="departureLabel" Content="Departure:" HorizontalAlignment="Left" Height="26" Margin="69,168,0,0" VerticalAlignment="Top" Width="106" Foreground="#FF0B0A0B"/>
+        <TextBlock x:Name="tbDeparture" HorizontalAlignment="Left" Height="20" Margin="181,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136"/>
+        <TextBlock x:Name="tbHotel" HorizontalAlignment="Left" Height="20" Margin="181,197,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136"/>
+        <TextBlock x:Name="tbDuration" HorizontalAlignment="Left" Height="20" Margin="180,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137"/>
+        <TextBlock x:Name="tbPrice" HorizontalAlignment="Left" Height="20" Margin="180,244,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137"/>
+        <TextBlock x:Name="tbDepDate" HorizontalAlignment="Left" Height="20" Margin="180,267,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137"/>
+        <TextBlock x:Name="tbRetDate" HorizontalAlignment="Left" Height="20" Margin="180,288,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137"/>
+        <Label x:Name="HotelLabel" Content="Hotel:" HorizontalAlignment="Left" Height="23" Margin="69,192,0,0" VerticalAlignment="Top" Width="106"/>
+        <Label x:Name="RetDateLabel" Content="Return date:" HorizontalAlignment="Left" Height="26" Margin="69,286,0,0" VerticalAlignment="Top" Width="106"/>
+        <Label x:Name="DurationLabel" Content="Duration: " HorizontalAlignment="Left" Height="23" Margin="69,215,0,0" VerticalAlignment="Top" Width="106"/>
+        <Label x:Name="PriceLabel" Content="Price per person:" HorizontalAlignment="Left" Height="26" Margin="69,239,0,0" VerticalAlignment="Top" Width="106"/>
+        <Label x:Name="depDateLabel" Content="Departure date:" HorizontalAlignment="Left" Height="26" Margin="69,264,0,0" VerticalAlignment="Top" Width="106"/>
+        <Label x:Name="FirstNameLabel" Content="First name:" HorizontalAlignment="Left" Margin="317,155,0,0" VerticalAlignment="Top" Width="94" Height="24"/>
+        <Label x:Name="SurnameLabel" Content="Surname:" HorizontalAlignment="Left" Margin="317,179,0,0" VerticalAlignment="Top" Width="94" Height="24"/>
+        <Label x:Name="AdressLabel" Content="Adress:" HorizontalAlignment="Left" Margin="317,206,0,0" VerticalAlignment="Top" Width="94" Height="26"/>
+        <Label x:Name="PostcodeLabel" Content="Post code:" HorizontalAlignment="Left" Margin="317,233,0,0" VerticalAlignment="Top" Width="94"/>
+        <Label x:Name="PhoneNumLabel" Content="Phone number:" HorizontalAlignment="Left" Margin="317,259,0,0" VerticalAlignment="Top" Width="94"/>
+        <Label x:Name="EmailLabel" Content="E-mail:" HorizontalAlignment="Left" Margin="317,287,0,0" VerticalAlignment="Top" Width="94"/>
+        <TextBox x:Name="tbxFirstname" HorizontalAlignment="Left" Margin="419,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="tbxSurname" HorizontalAlignment="Left" Margin="419,184,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="tbxAdress" HorizontalAlignment="Left" Margin="419,210,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="tbxPostcode" HorizontalAlignment="Left" Margin="419,237,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="tbxPhoneNum" HorizontalAlignment="Left" Margin="419,263,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="tbxEmail" HorizontalAlignment="Left" Margin="419,290,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <Button x:Name="btClient" Content="Accept" HorizontalAlignment="Left" Margin="633,367,0,0" VerticalAlignment="Top" Click="btClient_Click"/>
+        <Label Content="Enter client data" HorizontalAlignment="Left" Margin="461,116,0,0" VerticalAlignment="Top" Width="116" FontSize="13" FontWeight="Bold" Foreground="#FF0B0A0A"/>
+        <Label Content="Choose offer:" HorizontalAlignment="Left" Margin="108,116,0,0" VerticalAlignment="Top" FontSize="13" FontWeight="Bold" Foreground="#FF0C0C0C"/>
+        <Label Content="Enter booking information" HorizontalAlignment="Left" Margin="97,312,0,0" VerticalAlignment="Top" FontSize="13" FontWeight="Bold" Foreground="#FF0C0C0C"/>
+        <Label x:Name="label" Content="Flight type&#xD;&#xA;l" HorizontalAlignment="Left" Height="26" Margin="69,343,0,0" VerticalAlignment="Top" Width="78"/>
+        <Label x:Name="label_Copy" Content="Room type" HorizontalAlignment="Left" Height="26" Margin="69,374,0,0" VerticalAlignment="Top" Width="78"/>
+        <ComboBox x:Name="room_type" HorizontalAlignment="Left" Height="22" Margin="167,376,0,0" VerticalAlignment="Top" Width="145"/>
+        <ComboBox x:Name="flight_type" HorizontalAlignment="Left" Height="22" Margin="168,345,0,0" VerticalAlignment="Top" Width="145"/>
+        <Label x:Name="boards_type" Content="Board type" HorizontalAlignment="Left" Height="26" Margin="69,405,0,0" VerticalAlignment="Top" Width="78"/>
+        <ComboBox x:Name="board_type" HorizontalAlignment="Left" Height="22" Margin="169,409,0,0" VerticalAlignment="Top" Width="144"/>
+        <Button x:Name="info_button" Content="Confirm" HorizontalAlignment="Left" Height="22" Margin="241,443,0,0" VerticalAlignment="Top" Width="72" Click="info_button_Click"/>
+        <ListBox x:Name="lbClients" HorizontalAlignment="Left" Height="115" Margin="419,344,0,0" VerticalAlignment="Top" Width="200"/>
+        <Button x:Name="addbt" Content="Add" HorizontalAlignment="Left" Height="22" Margin="361,347,0,0" VerticalAlignment="Top" Width="50" Click="addbt_Click"/>
+        <Button x:Name="deletebt" Content="Delete" HorizontalAlignment="Left" Height="22" Margin="361,378,0,0" VerticalAlignment="Top" Width="50" Click="deletebt_Click"/>
+        <Label Content="Add a new client" HorizontalAlignment="Left" Margin="463,312,0,0" VerticalAlignment="Top" FontSize="13" FontWeight="Bold" Foreground="#FF0C0C0C"/>
+        <Label Content="Travel Agency Nazwa" HorizontalAlignment="Center" Height="76" Margin="0,22,0,0" VerticalAlignment="Top" Width="466" FontSize="48" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
 
 
     </Grid>

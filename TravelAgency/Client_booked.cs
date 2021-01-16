@@ -4,11 +4,15 @@ using System.Text;
 
 namespace TravelAgency
 {
-    public enum Status { adult, child }
+    public enum Status { Adult, Child }
     public class Client_booked : AClient
     {
         Status status;
         public Status Status { get => status; set => status = value; }
+        public Client_booked()
+        {
+
+        }
         public Client_booked(string firstname, string surname, Status status)
         {
             this.Firstname = firstname;
