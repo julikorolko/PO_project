@@ -69,3 +69,5 @@ C:\Users\karol\Source\Repos\PO_projekt\TravelAgencyGUI\obj\Debug\netcoreapp3.1\T
 C:\Users\karol\Source\Repos\PO_projekt\TravelAgencyGUI\obj\Debug\netcoreapp3.1\TravelAgencyGUI.dll
 C:\Users\karol\Source\Repos\PO_projekt\TravelAgencyGUI\obj\Debug\netcoreapp3.1\TravelAgencyGUI.pdb
 C:\Users\karol\Source\Repos\PO_projekt\TravelAgencyGUI\obj\Debug\netcoreapp3.1\TravelAgencyGUI.genruntimeconfig.cache
+C:\Users\korol\OneDrive\Documents\GitHub\PO_projekt\TravelAgencyGUI\obj\Debug\netcoreapp3.1\OfferBrowser.g.cs
+C:\Users\korol\OneDrive\Documents\GitHub\PO_projekt\TravelAgencyGUI\obj\Debug\netcoreapp3.1\OfferBrowser.baml

@@ -7,7 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Background.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\TravelAgency\TravelAgency.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Background.jpg" />
   </ItemGroup>
 
 </Project>

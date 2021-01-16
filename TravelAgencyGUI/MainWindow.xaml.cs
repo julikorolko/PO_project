@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System;
+using System.Windows;
 using TravelAgency;
 
 namespace TravelAgencyGUI
@@ -12,6 +13,9 @@ namespace TravelAgencyGUI
         public MainWindow()
         {
             InitializeComponent();
+			flight_type.ItemsSource = Enum.GetValues(typeof(Flight_types));
+            room_type.ItemsSource = Enum.GetValues(typeof(Accomodation));
+            board_type.ItemsSource = Enum.GetValues(typeof(Board_types));
         }
 
         private void btBrowse_Click(object sender, RoutedEventArgs e)
@@ -44,6 +48,21 @@ namespace TravelAgencyGUI
                 MessageBox.Show("Some data is missing!","Error");
             }
         }
-    }
+
+		private void info_button_Click(object sender, RoutedEventArgs e)
+		{
+            if (flight_type.SelectedItem == null || room_type.SelectedItem == null || board_type.SelectedItem == null)
+            {
+                MessageBox.Show("Please check whether everything is selected");
+            }
+            else
+            {
+                Flight_types ft = (Flight_types)flight_type.SelectedItem;
+                Accomodation ac = (Accomodation)room_type.SelectedItem;
+                Board_types bt = (Board_types)board_type.SelectedItem;
+                MessageBox.Show("Flight type: " + ft.ToString() + "\nRoom type: " + ac.ToString() + "\nBoard type: " + bt.ToString());
+            }
+        }
+	}
 }
 

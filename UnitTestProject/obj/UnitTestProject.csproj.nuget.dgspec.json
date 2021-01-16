@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Weronika\\Documents\\GitHub\\PO_projekt\\UnitTestProject\\UnitTestProject.csproj": {}
+    "C:\\Users\\korol\\OneDrive\\Documents\\GitHub\\PO_projekt\\UnitTestProject\\UnitTestProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Weronika\\Documents\\GitHub\\PO_projekt\\TravelAgency\\TravelAgency.csproj": {
+    "C:\\Users\\korol\\OneDrive\\Documents\\GitHub\\PO_projekt\\TravelAgency\\TravelAgency.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Weronika\\Documents\\GitHub\\PO_projekt\\TravelAgency\\TravelAgency.csproj",
+        "projectUniqueName": "C:\\Users\\korol\\OneDrive\\Documents\\GitHub\\PO_projekt\\TravelAgency\\TravelAgency.csproj",
         "projectName": "TravelAgency",
-        "projectPath": "C:\\Users\\Weronika\\Documents\\GitHub\\PO_projekt\\TravelAgency\\TravelAgency.csproj",
-        "packagesPath": "C:\\Users\\Weronika\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Weronika\\Documents\\GitHub\\PO_projekt\\TravelAgency\\obj\\",
+        "projectPath": "C:\\Users\\korol\\OneDrive\\Documents\\GitHub\\PO_projekt\\TravelAgency\\TravelAgency.csproj",
+        "packagesPath": "C:\\Users\\korol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\korol\\OneDrive\\Documents\\GitHub\\PO_projekt\\TravelAgency\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Weronika\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\korol\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,21 +52,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Weronika\\Documents\\GitHub\\PO_projekt\\UnitTestProject\\UnitTestProject.csproj": {
+    "C:\\Users\\korol\\OneDrive\\Documents\\GitHub\\PO_projekt\\UnitTestProject\\UnitTestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Weronika\\Documents\\GitHub\\PO_projekt\\UnitTestProject\\UnitTestProject.csproj",
+        "projectUniqueName": "C:\\Users\\korol\\OneDrive\\Documents\\GitHub\\PO_projekt\\UnitTestProject\\UnitTestProject.csproj",
         "projectName": "UnitTestProject",
-        "projectPath": "C:\\Users\\Weronika\\Documents\\GitHub\\PO_projekt\\UnitTestProject\\UnitTestProject.csproj",
-        "packagesPath": "C:\\Users\\Weronika\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Weronika\\Documents\\GitHub\\PO_projekt\\UnitTestProject\\obj\\",
+        "projectPath": "C:\\Users\\korol\\OneDrive\\Documents\\GitHub\\PO_projekt\\UnitTestProject\\UnitTestProject.csproj",
+        "packagesPath": "C:\\Users\\korol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\korol\\OneDrive\\Documents\\GitHub\\PO_projekt\\UnitTestProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Weronika\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\korol\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -79,8 +79,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Weronika\\Documents\\GitHub\\PO_projekt\\TravelAgency\\TravelAgency.csproj": {
-                "projectPath": "C:\\Users\\Weronika\\Documents\\GitHub\\PO_projekt\\TravelAgency\\TravelAgency.csproj"
+              "C:\\Users\\korol\\OneDrive\\Documents\\GitHub\\PO_projekt\\TravelAgency\\TravelAgency.csproj": {
+                "projectPath": "C:\\Users\\korol\\OneDrive\\Documents\\GitHub\\PO_projekt\\TravelAgency\\TravelAgency.csproj"
               }
             }
           }
@@ -126,7 +126,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
