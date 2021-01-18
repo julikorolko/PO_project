@@ -53,9 +53,11 @@ namespace TravelAgency
 
             Offer o20 = new Offer("Tanzania - Uroa", "Kraków", "Bay Beach Resort", 7, 5000, "07-05-2021", "14-05-2021");
 
-            Booking b1 = new Booking(c1, o1, 2, Accomodation.Double,
+            Booking b1 = new Booking(c1, o1, Accomodation.Double,
                 Flight_types.Economy, Board_types.Full, true);
-
+            Console.WriteLine(b1.ToString());
+            Booking b2 = b1.Clone() as Booking;
+            Console.WriteLine(b2.ToString());
             OffersList offers_list = new OffersList();
 
             offers_list.AddOffer(o2);
@@ -85,6 +87,7 @@ namespace TravelAgency
             OffersList.SaveXML("offerslist.xml", offers_list);
             OffersList offers_list2 = OffersList.ReadXML("offerslist.xml");
             //Console.WriteLine(offers_list2);
+
             
         }
     }

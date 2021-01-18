@@ -6,7 +6,7 @@ using System.Text.RegularExpressions;
 
 namespace TravelAgency
 {
-    public class Client : AClient
+    public class Client : AClient,ICloneable
     {        
         string adress;
         string postcode;
@@ -50,6 +50,14 @@ namespace TravelAgency
                 + Postcode + "\n"
                 + Phone_num + "\n"
                 + Email + "\n";
+        }
+
+        public object Clone()
+        {
+            Client clone = new Client(this.Firstname, this.Surname, this.adress, this.postcode, this.phone_num, this.email);
+
+            return clone;
+
         }
     }
 }

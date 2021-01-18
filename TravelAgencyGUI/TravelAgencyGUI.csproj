@@ -8,6 +8,9 @@
 
   <ItemGroup>
     <None Remove="Background.jpg" />
+    <None Remove="fern.png" />
+    <None Remove="fern2.png" />
+    <None Remove="mountain.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -16,6 +19,9 @@
 
   <ItemGroup>
     <Resource Include="Background.jpg" />
+    <Resource Include="fern.png" />
+    <Resource Include="fern2.png" />
+    <Resource Include="mountain.jpg" />
   </ItemGroup>
 
 </Project>

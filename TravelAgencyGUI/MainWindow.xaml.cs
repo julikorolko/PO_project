@@ -36,7 +36,7 @@ namespace TravelAgencyGUI
                 tbPrice.Text = offer.Price.ToString() + " PLN";
                 tbDepDate.Text = offer.Date_dep.ToShortDateString();
                 tbRetDate.Text = offer.Date_arr.ToShortDateString();
-                
+              
             }
         }
         private void btClient_Click(object sender, RoutedEventArgs e)

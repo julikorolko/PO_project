@@ -7,9 +7,17 @@
         mc:Ignorable="d"
         Title="OfferBrowser" Height="450" Width="800">
     <Grid>
-        <ListBox x:Name="lbOffers" HorizontalAlignment="Left" Height="326" Margin="47,79,0,0" VerticalAlignment="Top" Width="562"/>
-        <Button x:Name="btCancel" Content="Cancel" HorizontalAlignment="Left" Height="39" Margin="647,242,0,0" VerticalAlignment="Top" Width="89" FontSize="18" Click="btCancel_Click"/>
-        <Button x:Name="btSelect" Content="Select" HorizontalAlignment="Left" Height="39" Margin="647,170,0,0" VerticalAlignment="Top" Width="89" FontSize="18" Click="btSelect_Click"/>
+        <Grid.Background>
+            <ImageBrush ImageSource="fern.png"/>
+        </Grid.Background>
+        <ListBox x:Name="lbOffers" HorizontalAlignment="Left" Height="295" Margin="85,79,0,0" VerticalAlignment="Top" Width="467" Foreground="#FFF0EBEB" FontSize="16">
+            <ListBox.Background>
+                <ImageBrush ImageSource="fern2.png" Stretch="Fill" TileMode="None" Opacity="1"/>
+            </ListBox.Background>
+        </ListBox>
+        <Button x:Name="btCancel" Content="Cancel" HorizontalAlignment="Left" Height="39" Margin="611,242,0,0" VerticalAlignment="Top" Width="89" FontSize="18" Click="btCancel_Click"/>
+        <Button x:Name="btSelect" Content="Select" HorizontalAlignment="Left" Height="39" Margin="611,159,0,0" VerticalAlignment="Top" Width="89" FontSize="18" Click="btSelect_Click"/>
+        <Label Content="Choose an offer for you" HorizontalAlignment="Left" Height="64" Margin="144,10,0,0" VerticalAlignment="Top" Width="465" FontSize="36" Background="{x:Null}" Foreground="#FFEAEAEA"/>
 
     </Grid>
 </Window>

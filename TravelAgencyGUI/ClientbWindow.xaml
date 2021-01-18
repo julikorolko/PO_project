@@ -5,17 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TravelAgencyGUI"
         mc:Ignorable="d"
-        Title="Client" Height="300" Width="350">
+        Title="Client" Height="300" Width="320">
     <Grid Margin="10,0,10,0">
-        <TextBox x:Name="tbFirstname" HorizontalAlignment="Left" Height="34" Margin="143,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="152" FontSize="16"/>
-        <TextBox x:Name="tbSurname" HorizontalAlignment="Left" Height="34" Margin="143,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="152" FontSize="16"/>
-        <ComboBox x:Name="cbStatus" HorizontalAlignment="Left" Height="31" Margin="143,162,0,0" VerticalAlignment="Top" Width="152" FontSize="16"/>
-        <Label x:Name="lbFirstName" Content="First name:" HorizontalAlignment="Left" Height="34" Margin="29,52,0,0" VerticalAlignment="Top" Width="92" FontSize="16"/>
-        <Label x:Name="tbSurname1" Content="Surname:" HorizontalAlignment="Left" Height="34" Margin="29,103,0,0" VerticalAlignment="Top" Width="92" FontSize="16"/>
-        <Label x:Name="lbStatus" Content="Status:" HorizontalAlignment="Left" Height="34" Margin="29,159,0,0" VerticalAlignment="Top" Width="92" FontSize="16"/>
-        <Button x:Name="btConfirm" Content="Confirm" HorizontalAlignment="Left" Height="22" Margin="143,220,0,0" VerticalAlignment="Top" Width="64" Click="btConfirm_Click"/>
+        <Grid.Background>
+            <ImageBrush ImageSource="mountain.jpg" Stretch="Fill"/>
+        </Grid.Background>
+        <TextBox x:Name="tbFirstname" HorizontalAlignment="Left" Height="34" Margin="118,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="152" FontSize="16"/>
+        <TextBox x:Name="tbSurname" HorizontalAlignment="Left" Height="34" Margin="118,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="152" FontSize="16"/>
+        <ComboBox x:Name="cbStatus" HorizontalAlignment="Left" Height="30" Margin="118,162,0,0" VerticalAlignment="Top" Width="152" FontSize="16"/>
+        <Label x:Name="lbFirstName" Content="First name:" HorizontalAlignment="Left" Height="34" Margin="0,52,0,0" VerticalAlignment="Top" Width="92" FontSize="16"/>
+        <Label x:Name="tbSurname1" Content="Surname:" HorizontalAlignment="Left" Height="34" Margin="10,103,0,0" VerticalAlignment="Top" Width="92" FontSize="16"/>
+        <Label x:Name="lbStatus" Content="Status:" HorizontalAlignment="Left" Height="34" Margin="10,160,0,0" VerticalAlignment="Top" Width="92" FontSize="16"/>
+        <Button x:Name="btConfirm" Content="Confirm" HorizontalAlignment="Left" Height="22" Margin="118,220,0,0" VerticalAlignment="Top" Width="64" Click="btConfirm_Click"/>
         <Label x:Name="lbEnterClient" Content="Enter client data" HorizontalAlignment="Left" Height="32" Margin="84,10,0,0" VerticalAlignment="Top" Width="182" FontSize="18"/>
-        <Button x:Name="btCancel" Content="Cancel" HorizontalAlignment="Left" Height="22" Margin="233,220,0,0" VerticalAlignment="Top" Width="62" Click="btCancel_Click"/>
+        <Button x:Name="btCancel" Content="Cancel" HorizontalAlignment="Left" Height="22" Margin="208,220,0,0" VerticalAlignment="Top" Width="62" Click="btCancel_Click"/>
 
     </Grid>
 </Window>

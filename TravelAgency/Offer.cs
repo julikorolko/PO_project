@@ -27,7 +27,7 @@ namespace TravelAgency
         }
     }
     [Serializable]
-    public class Offer : IComparable<Offer>
+    public class Offer : IComparable<Offer>, ICloneable
     {
         string destination;
         string departure;
@@ -54,12 +54,10 @@ namespace TravelAgency
             this.Hotel = hotel;
             this.Days = days;
             this.Price = price;
-            Regex pattern = new Regex(@"^\d{2}-\d{2}-\d{4}$");
-            if (pattern.IsMatch(date_dep))
-                DateTime.TryParse(date_dep, out this.date_dep);
-            if (pattern.IsMatch(date_arr))
-                DateTime.TryParse(date_arr, out this.date_arr);
+            DateTime.TryParse(date_dep, out this.date_dep);
+            DateTime.TryParse(date_arr, out this.date_arr);
         }
+
         public int CompareTo(Offer other)
         {
             return this.Destination.CompareTo(other.Destination);
@@ -73,6 +71,14 @@ namespace TravelAgency
                 + "Price per person: " + Price + " PLN\n"
                 + "Departure date: " + Date_dep.ToShortDateString() + "\n"
                 + "Return date: " + Date_arr.ToShortDateString() + "\n";
+        }
+
+        public object Clone()
+        {
+            Offer clone = new Offer(this.destination, this.departure, this.hotel, this.days, this.price, this.date_dep.ToString(), this.date_arr.ToString());
+
+            return clone;
+
         }
     }
 }

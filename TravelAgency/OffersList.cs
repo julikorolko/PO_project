@@ -9,7 +9,7 @@ using System.Xml.Serialization;
 namespace TravelAgency
 {
     [Serializable]
-    public class OffersList : IStore
+    public class OffersList : IStore, ICloneable
     {
         List<Offer> offers = new List<Offer>();
 
@@ -95,6 +95,18 @@ namespace TravelAgency
                 XmlSerializer serializer = new XmlSerializer(typeof(OffersList));
                 return serializer.Deserialize(reader) as OffersList;
             }
+        }
+
+        public object Clone()
+        {
+            OffersList clone = this.MemberwiseClone() as OffersList;
+            clone.Offers = new List<Offer>(this.Offers);           
+            foreach (Offer offer in Offers)
+            {
+                clone.Offers.Add(offer.Clone() as Offer);
+            }
+            return clone;
+
         }
     }
 }

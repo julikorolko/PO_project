@@ -5,7 +5,7 @@ using System.Text;
 namespace TravelAgency
 {
     public enum Status { Adult, Child }
-    public class Client_booked : AClient
+    public class Client_booked : AClient, ICloneable
     {
         Status status;
         public Status Status { get => status; set => status = value; }
@@ -24,5 +24,15 @@ namespace TravelAgency
             return Firstname + " " + Surname + "\n"
                 + "Status: " + Status;
         }
+
+        
+            public object Clone()
+            {
+                Client_booked clone = new Client_booked(this.Firstname, this.Surname, this.status);
+
+                return clone;
+
+            }
+        
     }
 }
