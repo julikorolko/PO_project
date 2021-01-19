@@ -1,20 +1,20 @@
 ﻿TravelAgencyGUI
-
+1.0.0.0
 
 winexe
 C#
 .cs
-C:\Users\Weronika\Documents\GitHub\PO_projekt\TravelAgencyGUI\obj\Debug\netcoreapp3.1\
+C:\Users\korol\OneDrive\Documents\GitHub\PO_projekt\TravelAgencyGUI\obj\Debug\netcoreapp3.1\
 TravelAgencyGUI
 none
 false
-TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
-C:\Users\Weronika\Documents\GitHub\PO_projekt\TravelAgencyGUI\App.xaml
+TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
+C:\Users\korol\OneDrive\Documents\GitHub\PO_projekt\TravelAgencyGUI\App.xaml
 3-1563950604
 
-6-1583858893
-193698417769
+7-1751150303
+1931049497288
 ClientbWindow.xaml;MainWindow.xaml;OfferBrowser.xaml;
 
-True
+False
 
