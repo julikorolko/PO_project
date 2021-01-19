@@ -2,12 +2,9 @@
 using System.Collections.ObjectModel;
 using System.Windows;
 using TravelAgency;
-
 namespace TravelAgencyGUI
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+    
     public partial class MainWindow : Window
     {
         Booking booking = new Booking();
@@ -90,6 +87,23 @@ namespace TravelAgencyGUI
                 booking.Clients.RemoveAt(selected);
             }
         }
-    }
+
+		private void exit_button_Click(object sender, RoutedEventArgs e)
+		{
+            this.Close();
+		}
+
+		private void btsummary_Click(object sender, RoutedEventArgs e)
+		{
+            String Firstname = (tbxFirstname.Text);
+            String Surname = (tbxSurname.Text);
+            String PhoneNum = (tbxPhoneNum.Text);
+
+            richTextBox.AppendText(
+                "\nName: " +tbxFirstname.Text
+
+                );
+		}
+	}
 }
 

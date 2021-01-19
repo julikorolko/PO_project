@@ -73,3 +73,5 @@ C:\Users\korol\OneDrive\Documents\GitHub\PO_projekt\TravelAgencyGUI\obj\Debug\ne
 C:\Users\korol\OneDrive\Documents\GitHub\PO_projekt\TravelAgencyGUI\obj\Debug\netcoreapp3.1\OfferBrowser.baml
 C:\Users\Weronika\Documents\GitHub\PO_projekt\TravelAgencyGUI\obj\Debug\netcoreapp3.1\ClientbWindow.g.cs
 C:\Users\Weronika\Documents\GitHub\PO_projekt\TravelAgencyGUI\obj\Debug\netcoreapp3.1\ClientbWindow.baml
+C:\Users\korol\OneDrive\Documents\GitHub\PO_projekt\TravelAgencyGUI\obj\Debug\netcoreapp3.1\ClientbWindow.g.cs
+C:\Users\korol\OneDrive\Documents\GitHub\PO_projekt\TravelAgencyGUI\obj\Debug\netcoreapp3.1\ClientbWindow.baml

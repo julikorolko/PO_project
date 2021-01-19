@@ -10,7 +10,7 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Background.jpg" Opacity="0.9"/>
         </Grid.Background>
-        <Button x:Name="btBrowse" Content="Browse" HorizontalAlignment="Left" Height="18" Margin="215,120,0,0" VerticalAlignment="Top" Width="50" IsDefault="True" Click="btBrowse_Click"/>
+        <Button x:Name="btBrowse" Content="Browse" HorizontalAlignment="Left" Height="23" Margin="215,120,0,0" VerticalAlignment="Top" Width="50" IsDefault="True" Click="btBrowse_Click"/>
         <TextBlock x:Name="tbofferdest" HorizontalAlignment="Left" Height="20" Margin="180,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" RenderTransformOrigin="0.5,0.502"/>
         <Label x:Name="destinationLabel" Content="Destination:" HorizontalAlignment="Left" Height="23" Margin="69,145,0,0" VerticalAlignment="Top" Width="106" Foreground="#FF050405"/>
         <Label x:Name="departureLabel" Content="Departure:" HorizontalAlignment="Left" Height="26" Margin="69,168,0,0" VerticalAlignment="Top" Width="106" Foreground="#FF0B0A0B"/>
@@ -37,10 +37,10 @@
         <TextBox x:Name="tbxPostcode" HorizontalAlignment="Left" Margin="419,237,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
         <TextBox x:Name="tbxPhoneNum" HorizontalAlignment="Left" Margin="419,263,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
         <TextBox x:Name="tbxEmail" HorizontalAlignment="Left" Margin="419,290,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
-        <Button x:Name="btClient" Content="Accept" HorizontalAlignment="Left" Margin="633,367,0,0" VerticalAlignment="Top" Click="btClient_Click"/>
-        <Label Content="Enter client data" HorizontalAlignment="Left" Margin="461,116,0,0" VerticalAlignment="Top" Width="116" FontSize="13" FontWeight="Bold" Foreground="#FF0B0A0A"/>
+        <Button x:Name="btClient" Content="Accept" HorizontalAlignment="Left" Margin="645,500,0,0" VerticalAlignment="Top" Click="btClient_Click"/>
+        <Label Content="Enter personal information" HorizontalAlignment="Left" Margin="430,116,0,0" VerticalAlignment="Top" Width="181" FontSize="13" FontWeight="Bold" Foreground="#FF0B0A0A"/>
         <Label Content="Choose offer:" HorizontalAlignment="Left" Margin="108,116,0,0" VerticalAlignment="Top" FontSize="13" FontWeight="Bold" Foreground="#FF0C0C0C"/>
-        <Label Content="Enter booking information" HorizontalAlignment="Left" Margin="97,312,0,0" VerticalAlignment="Top" FontSize="13" FontWeight="Bold" Foreground="#FF0C0C0C"/>
+        <Label Content="Enter booking information" HorizontalAlignment="Left" Margin="108,312,0,0" VerticalAlignment="Top" FontSize="13" FontWeight="Bold" Foreground="#FF0C0C0C"/>
         <Label x:Name="label" Content="Flight type&#xD;&#xA;l" HorizontalAlignment="Left" Height="26" Margin="69,343,0,0" VerticalAlignment="Top" Width="78"/>
         <Label x:Name="label_Copy" Content="Room type" HorizontalAlignment="Left" Height="26" Margin="69,374,0,0" VerticalAlignment="Top" Width="78"/>
         <ComboBox x:Name="room_type" HorizontalAlignment="Left" Height="22" Margin="167,376,0,0" VerticalAlignment="Top" Width="145"/>
@@ -51,8 +51,18 @@
         <ListBox x:Name="lbClients" HorizontalAlignment="Left" Height="115" Margin="419,344,0,0" VerticalAlignment="Top" Width="200"/>
         <Button x:Name="addbt" Content="Add" HorizontalAlignment="Left" Height="22" Margin="361,347,0,0" VerticalAlignment="Top" Width="50" Click="addbt_Click"/>
         <Button x:Name="deletebt" Content="Delete" HorizontalAlignment="Left" Height="22" Margin="361,378,0,0" VerticalAlignment="Top" Width="50" Click="deletebt_Click"/>
-        <Label Content="Add a new client" HorizontalAlignment="Left" Margin="463,312,0,0" VerticalAlignment="Top" FontSize="13" FontWeight="Bold" Foreground="#FF0C0C0C"/>
+        <Label Content="Add people you are travelling with" HorizontalAlignment="Left" Margin="408,312,0,0" VerticalAlignment="Top" FontSize="13" FontWeight="Bold" Foreground="#FF0C0C0C" Width="222"/>
         <Label Content="Travel Agency Nazwa" HorizontalAlignment="Center" Height="76" Margin="0,22,0,0" VerticalAlignment="Top" Width="466" FontSize="48" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+        <RichTextBox x:Name="richTextBox" HorizontalAlignment="Left" Height="301" Margin="645,158,0,0" VerticalAlignment="Top" Width="195">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text=""/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Button x:Name="exit_button" Content="Exit" HorizontalAlignment="Left" Height="20" Margin="780,464,0,0" VerticalAlignment="Top" Width="60" Click="exit_button_Click"/>
+        <Label Content="Summary" HorizontalAlignment="Left" Margin="662,116,0,0" VerticalAlignment="Top" Width="75" FontSize="13" FontWeight="Bold" Foreground="#FF0B0A0A"/>
+        <Button x:Name="btsummary" Content="Browse" HorizontalAlignment="Left" Height="23" Margin="742,120,0,0" VerticalAlignment="Top" Width="60" IsDefault="True" Click="btsummary_Click"/>
 
 
     </Grid>
