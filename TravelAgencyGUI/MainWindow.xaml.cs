@@ -75,7 +75,7 @@ namespace TravelAgencyGUI
             }
 
 
-            if (flight_type.SelectedItem == null || room_type.SelectedItem == null || board_type.SelectedItem == null)
+            if (flight_type.SelectedItem == null || room_type.SelectedItem == null || board_type.SelectedItem == null || string.IsNullOrEmpty(tbofferdest.Text))
             {
                 MessageBox.Show("Please check whether everything is selected!", "Error");
             }
