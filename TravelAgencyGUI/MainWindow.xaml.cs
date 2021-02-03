@@ -72,6 +72,7 @@ namespace TravelAgencyGUI
             catch
             {
                 MessageBox.Show("Please check personal information! Something is missing!", "Error");
+                return;
             }
 
 

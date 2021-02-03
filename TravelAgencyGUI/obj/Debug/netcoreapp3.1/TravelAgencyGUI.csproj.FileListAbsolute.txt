@@ -1,4 +1,3 @@
-C:\Users\korol\OneDrive\Documents\GitHub\PO_projekt\TravelAgencyGUI\bin\Debug\netcoreapp3.1\TravelAgency.exe
 C:\Users\korol\OneDrive\Documents\GitHub\PO_projekt\TravelAgencyGUI\bin\Debug\netcoreapp3.1\TravelAgencyGUI.exe
 C:\Users\korol\OneDrive\Documents\GitHub\PO_projekt\TravelAgencyGUI\bin\Debug\netcoreapp3.1\TravelAgencyGUI.deps.json
 C:\Users\korol\OneDrive\Documents\GitHub\PO_projekt\TravelAgencyGUI\bin\Debug\netcoreapp3.1\TravelAgencyGUI.runtimeconfig.json

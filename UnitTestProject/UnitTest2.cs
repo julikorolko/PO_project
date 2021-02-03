@@ -13,7 +13,7 @@ namespace UnitTestProject
 		[TestMethod]
 		public void TestBooking()
 		{
-			Booking b_test = new Booking(c_test, o_test, 3, Accomodation.Extra,
+			Booking b_test = new Booking(c_test, o_test, Accomodation.Extra,
 				Flight_types.Standard, Board_types.Full, true);
 
 			Assert.IsNotNull(b_test.Accomodation);
